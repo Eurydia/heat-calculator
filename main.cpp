@@ -237,7 +237,7 @@ int main() {
 				
 				else {
 					for(int g = 0; g < index; g++) {
-						cout << "\nMaterial #" << g << endl;
+						cout << "\nMaterial #" << g+1 << endl;
 						saved[g].specs_listing();
 					}
 				}
